@@ -15,7 +15,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A406B86-7F72-4773-B99C-545CCACC92B0}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
-		DOCKERFILE = DOCKERFILE
 		README.md = README.md
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
@@ -43,11 +42,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MeetingsManagement", "Meeti
 	ProjectSection(SolutionItems) = preProject
 		Sample\MeetingsManagement\Readme.md = Sample\MeetingsManagement\Readme.md
 	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{E15B4D4B-1527-446F-8613-A09B230D6643}"
-ProjectSection(SolutionItems) = preProject
-	Workshops\BuildYourOwnEventStore\docker\docker-compose.yml = Workshops\BuildYourOwnEventStore\docker\docker-compose.yml
-EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{F755E316-140C-4A73-9586-06860521C1B6}"
 ProjectSection(SolutionItems) = preProject
@@ -201,12 +195,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.EventStoreDB", "Core.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.ElasticSearch", "Core.ElasticSearch\Core.ElasticSearch.csproj", "{B32E504C-C17A-419B-A705-6B876EF44854}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI", "CI", "{F078A982-331A-4EB6-B6F8-34464359B05D}"
-ProjectSection(SolutionItems) = preProject
-	.github\workflows\build.dotnet.yml = .github\workflows\build.dotnet.yml
-	.github\workflows\publish.docker.yml = .github\workflows\publish.docker.yml
-EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marten.Integration.Tests", "Marten.Integration.Tests\Marten.Integration.Tests.csproj", "{D9D67A6C-FE95-4864-B8F1-BD2689134590}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simple", "Simple", "{11DD4963-5BB4-4E1B-9475-8EB10C822BFC}"
@@ -275,11 +263,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-AppendingEvents.EventStoreDB", "Workshops\IntroductionToEventSourcing\04-AppendingEvents.EventStoreDB\04-AppendingEvents.EventStoreDB.csproj", "{D107F07C-02DD-4DEB-BD9C-2368124E3C95}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-AppendingEvents.EventStoreDB", "Workshops\IntroductionToEventSourcing\Solved\04-AppendingEvents.EventStoreDB\04-AppendingEvents.EventStoreDB.csproj", "{00EEBD09-6194-44EA-9040-CA06D95F41C8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{A7061674-C351-4FB1-BEB1-595C79657CDB}"
-	ProjectSection(SolutionItems) = preProject
-		Workshops\IntroductionToEventSourcing\docker-compose.yml = Workshops\IntroductionToEventSourcing\docker-compose.yml
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-GettingStateFromEvents.Marten", "Workshops\IntroductionToEventSourcing\Solved\05-GettingStateFromEvents.Marten\05-GettingStateFromEvents.Marten.csproj", "{84B63522-B331-4ECC-9D5B-CDCF4A48181D}"
 EndProject
@@ -812,7 +795,6 @@ Global
 		{674E363C-8080-4250-AFB2-673A496BE705} = {A8E25331-55E9-4D1A-87A4-136EC4D2A4B5}
 		{CE38AEEC-E70A-4160-86FF-C2F914230AED} = {A8E25331-55E9-4D1A-87A4-136EC4D2A4B5}
 		{821CD028-E28C-4CB8-B661-D1F15F19D0F6} = {A8E25331-55E9-4D1A-87A4-136EC4D2A4B5}
-		{E15B4D4B-1527-446F-8613-A09B230D6643} = {94524EA9-A4BA-4684-99B8-BBE9EE85E791}
 		{FDA0A1B9-05C7-4989-A63F-C66DB59CDE89} = {94524EA9-A4BA-4684-99B8-BBE9EE85E791}
 		{69919602-C587-4D5A-9912-C686C0A6152D} = {94524EA9-A4BA-4684-99B8-BBE9EE85E791}
 		{AD5DA548-3CAF-4156-B293-9FE741D6672D} = {94524EA9-A4BA-4684-99B8-BBE9EE85E791}
@@ -868,7 +850,6 @@ Global
 		{CA18779A-8070-4E8D-BB3A-0BA5A228666E} = {14C7B928-9D6C-441A-8A1F-0C49173E73EB}
 		{D107F07C-02DD-4DEB-BD9C-2368124E3C95} = {14C7B928-9D6C-441A-8A1F-0C49173E73EB}
 		{00EEBD09-6194-44EA-9040-CA06D95F41C8} = {65F6E2BE-B2D4-4E56-B0CB-3062C4882B9E}
-		{A7061674-C351-4FB1-BEB1-595C79657CDB} = {14C7B928-9D6C-441A-8A1F-0C49173E73EB}
 		{84B63522-B331-4ECC-9D5B-CDCF4A48181D} = {65F6E2BE-B2D4-4E56-B0CB-3062C4882B9E}
 		{A0E61C5B-F1BB-462D-B83D-1FA00F7B8B97} = {14C7B928-9D6C-441A-8A1F-0C49173E73EB}
 		{B2565931-9573-4A54-98C4-5F844BBE5784} = {65F6E2BE-B2D4-4E56-B0CB-3062C4882B9E}
